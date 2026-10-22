@@ -1,0 +1,7 @@
+{
+  "oellampe":    { "name": "Öllampe", "desc": "Ausgewogen. Die Lampe, mit der jede Vorstellung beginnt.", "col": "#ffcf7a", "stats": {}, "start": [], "unlock": null },
+  "teelicht":    { "name": "Teelicht", "desc": "Klein und flink. Kleiner Schein, Fähigkeiten laden schneller.", "col": "#ffe9b0", "stats": { "maxFlame": 96, "radius": 215, "speed": 176, "flareCd": 4.4, "douseCd": 6 }, "start": ["flinkfuss"], "unlock": "akt2" },
+  "grubenlampe": { "name": "Grubenlampe", "desc": "Wirft einen Lichtkegel nach vorn. Alles hinter dir liegt im Schatten.", "col": "#fff2cf", "stats": { "maxFlame": 110, "radius": 300, "speed": 142, "cone": 1.9 }, "start": [], "unlock": "rabenkoenig" },
+  "laterna":     { "name": "Laterna Magica", "desc": "Beginnt mit zwei Mondsteinen, aber mit weniger Flamme.", "col": "#d9b8ff", "stats": { "maxFlame": 82, "radius": 215 }, "start": ["mondstein", "mondstein"], "unlock": "akt4" },
+  "irrlicht":    { "name": "Irrlicht", "desc": "Beginnt mit einem Irrwisch. Abdunkeln ist länger und lädt schneller.", "col": "#bfe8ff", "stats": { "maxFlame": 85, "speed": 162, "douseDur": 1.7, "douseCd": 7 }, "start": ["irrwisch"], "unlock": "sieg" }
+}

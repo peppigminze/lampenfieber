@@ -1,0 +1,18 @@
+{
+  "premiere":    { "name": "Premiere", "desc": "Beende deine erste Vorstellung.", "glut": 15 },
+  "akt2":        { "name": "Zweiter Akt", "desc": "Erreiche den Rabenacker.", "glut": 20, "unlock": "Laterne: Teelicht" },
+  "kerzenmutter":{ "name": "Wachs zu Wachs", "desc": "Besiege die Kerzenmutter.", "glut": 25 },
+  "rabenkoenig": { "name": "Federlesen", "desc": "Besiege den Rabenkönig.", "glut": 30, "unlock": "Laterne: Grubenlampe" },
+  "akt4":        { "name": "Glatteis", "desc": "Erreiche den Spiegelsee.", "glut": 40, "unlock": "Laterne: Laterna Magica" },
+  "sieg":        { "name": "Standing Ovations", "desc": "Besiege die Finsternis.", "glut": 120, "unlock": "Laterne: Irrlicht, Zugabe, Fiebergrad 1" },
+  "fieber3":     { "name": "Lampenfieber", "desc": "Erreiche Fieber III.", "glut": 25 },
+  "funken500":   { "name": "Schattenspieler", "desc": "Lösche insgesamt 500 Funken im Schatten.", "glut": 40 },
+  "schemen500":  { "name": "Lichtgestalt", "desc": "Verbrenne insgesamt 500 Schemen.", "glut": 40 },
+  "viermonde":   { "name": "Mondfinsternis", "desc": "Lass vier Mondsteine gleichzeitig kreisen.", "glut": 30 },
+  "unberuehrt":  { "name": "Ohne Kratzer", "desc": "Schliesse einen Akt ohne Treffer ab.", "glut": 35 },
+  "dunkelzehn":  { "name": "Licht aus", "desc": "Lösche 10 Gegner während eines einzigen Abdunkelns.", "glut": 30 },
+  "zugabe5":     { "name": "Da capo", "desc": "Überlebe 5 Minuten in der Zugabe.", "glut": 50 },
+  "grad3":       { "name": "Hohes Fieber", "desc": "Gewinne auf Fiebergrad 3.", "glut": 100 },
+  "grubensieg":  { "name": "Unter Tage", "desc": "Gewinne mit der Grubenlampe.", "glut": 60 },
+  "wechsel100":  { "name": "Zwischen den Welten", "desc": "Besiege insgesamt 100 Wechselbälger.", "glut": 30 }
+}

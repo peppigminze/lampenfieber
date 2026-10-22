@@ -1,0 +1,15 @@
+{
+  "flamme":   { "name": "Wachsvorrat", "desc": "+10 maximale Flamme pro Stufe.", "cost": [30, 60, 100, 150, 220], "fx": [["maxFlame", "add", 10]] },
+  "schein":   { "name": "Weiter Schein", "desc": "+5 % Lichtradius pro Stufe.", "cost": [40, 80, 130, 190, 260], "fx": [["radius", "mul", 1.05]] },
+  "schatten": { "name": "Schattenkunde", "desc": "+6 % Schattenschaden pro Stufe.", "cost": [35, 70, 115, 170, 240], "fx": [["umbraDps", "mul", 1.06]] },
+  "licht":    { "name": "Lichtkunde", "desc": "+6 % Lichtschaden pro Stufe.", "cost": [35, 70, 115, 170, 240], "fx": [["lightDps", "mul", 1.06]] },
+  "gier":     { "name": "Wachszieher", "desc": "+10 % Wachs pro Stufe.", "cost": [30, 60, 100, 150, 210], "fx": [["xpMul", "mul", 1.1]] },
+  "karten":   { "name": "Neue Karten", "desc": "+1 Neuziehen pro Vorstellung.", "cost": [60, 140, 260], "fx": [["rerolls", "add", 1]] },
+  "zweiter":  { "name": "Zweiter Docht", "desc": "Einmal pro Vorstellung entzündest du dich mit halber Flamme neu.", "cost": [380], "fx": [["revive", "add", 1]] },
+  "requisite":{ "name": "Requisite", "desc": "Du beginnst mit einem zufälligen gewöhnlichen Kniff.", "cost": [240], "fx": [["startCard", "add", 1]] },
+  "u_doppeldocht":   { "name": "Karte: Doppeldocht", "desc": "Schaltet den Kniff Doppeldocht frei.", "cost": [300], "card": "doppeldocht" },
+  "u_glutspur":      { "name": "Karte: Glutspur", "desc": "Schaltet den Kniff Glutspur frei.", "cost": [180], "card": "glutspur" },
+  "u_schattenschritt": { "name": "Karte: Schattenschritt", "desc": "Schaltet den Kniff Schattenschritt frei.", "cost": [260], "card": "schattenschritt" },
+  "u_zwielicht":     { "name": "Karte: Zwielicht", "desc": "Schaltet den Kniff Zwielicht frei.", "cost": [200], "card": "zwielicht" },
+  "u_zunderherz":    { "name": "Karte: Zunderherz", "desc": "Schaltet den Kniff Zunderherz frei.", "cost": [230], "card": "zunderherz" }
+}

@@ -1,0 +1,2 @@
+{ "name": "game", "version": "1.0.0", "type": "module", "private": true,
+  "scripts": { "test": "node tests/test_logic.mjs", "sim": "node tests/sim.mjs", "bundle": "node tools/bundle.mjs", "smoke": "python3 tools/smoke.py" } }

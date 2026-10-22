@@ -1,0 +1,67 @@
+{
+  "acts": [
+    {
+      "id": "kerzenwald", "hpMul": 1.0, "name": "Kerzenwald", "sub": "Akt I", "duration": 115, "boss": "kerzenmutter",
+      "arena": { "w": 1500, "h": 1500 },
+      "obstacles": { "gen": "trees", "count": 17, "rMin": 22, "rMax": 42 },
+      "pal": { "dusk": "#1d1a33", "ground": "#2a2442", "light": "255,196,112", "umbra": "#0c0a1c", "hatch": "#2f2453", "obst": "#07060f", "rim": "#ffcf87", "accent": "#ffd36b" },
+      "rate": [0.45, 1.4], "cap": [22, 40],
+      "pool": [["funke", 1, 0], ["schemen", 0.6, 18], ["motte", 0.5, 35], ["laternchen", 0.18, 70]],
+      "bursts": [[50, "motte", 8, "ring"], [90, "funke", 10, "side"]],
+      "music": { "root": 50, "scale": [0, 2, 3, 7, 9], "bpm": 84 }
+    },
+    {
+      "id": "rabenacker", "hpMul": 1.12, "name": "Rabenacker", "sub": "Akt II", "duration": 125, "boss": "rabenkoenig",
+      "arena": { "w": 1600, "h": 1500 },
+      "obstacles": { "gen": "graves", "count": 20, "wMin": 26, "wMax": 38, "hMin": 40, "hMax": 62 },
+      "pal": { "dusk": "#171c2c", "ground": "#222a3c", "light": "255,214,160", "umbra": "#090b16", "hatch": "#28304f", "obst": "#05060c", "rim": "#e9dcc4", "accent": "#a9b8ff" },
+      "rate": [0.9, 1.9], "cap": [30, 50],
+      "pool": [["funke", 1, 0], ["schemen", 0.9, 0], ["rabe", 0.7, 10], ["schattenhand", 0.35, 30], ["irrlicht", 0.4, 55], ["motte", 0.4, 80]],
+      "bursts": [[45, "rabe", 8, "ring"], [100, "schemen", 9, "side"]],
+      "music": { "root": 45, "scale": [0, 1, 5, 7, 8], "bpm": 78 }
+    },
+    {
+      "id": "uhrwerkhalle", "hpMul": 1.25, "name": "Uhrwerkhalle", "sub": "Akt III", "duration": 130, "boss": "uhrwerk",
+      "arena": { "w": 1600, "h": 1600 },
+      "obstacles": { "gen": "gears", "count": 7, "orbit": [70, 130], "rMin": 24, "rMax": 34, "static": 6 },
+      "pal": { "dusk": "#24190f", "ground": "#33241a", "light": "255,186,92", "umbra": "#110904", "hatch": "#3f2b18", "obst": "#0a0604", "rim": "#ffc070", "accent": "#e8a33d" },
+      "rate": [1.0, 2.1], "cap": [32, 54],
+      "pool": [["funke", 1, 0], ["brenner", 0.5, 0], ["schemen", 0.8, 0], ["glutklumpen", 0.4, 25], ["tintenfleck", 0.3, 45], ["laternchen", 0.25, 60]],
+      "bursts": [[60, "brenner", 5, "side"], [105, "glutklumpen", 5, "ring"]],
+      "music": { "root": 48, "scale": [0, 2, 4, 7, 11], "bpm": 96 }
+    },
+    {
+      "id": "spiegelsee", "hpMul": 1.38, "name": "Spiegelsee", "sub": "Akt IV", "duration": 130, "boss": "spiegelfrau",
+      "arena": { "w": 1700, "h": 1600 },
+      "obstacles": { "gen": "floes", "count": 13, "rMin": 30, "rMax": 56, "drift": 18 },
+      "pal": { "dusk": "#0f2128", "ground": "#152f37", "light": "255,226,178", "umbra": "#04111a", "hatch": "#12344a", "obst": "#071820", "rim": "#bfeaff", "accent": "#9fe6ff" },
+      "rate": [1.1, 2.2], "cap": [34, 56],
+      "pool": [["wechselbalg", 0.6, 0], ["funke", 0.9, 0], ["schemen", 0.8, 0], ["irrlicht", 0.4, 20], ["rabe", 0.5, 30], ["tintenfleck", 0.3, 50], ["motte", 0.5, 70]],
+      "bursts": [[55, "wechselbalg", 6, "ring"], [100, "motte", 12, "ring"]],
+      "music": { "root": 52, "scale": [0, 2, 5, 7, 9], "bpm": 72 }
+    },
+    {
+      "id": "sonnenkammer", "hpMul": 1.5, "name": "Sonnenkammer", "sub": "Akt V", "duration": 140, "boss": "finsternis",
+      "arena": { "w": 1700, "h": 1700 },
+      "obstacles": { "gen": "pillars", "count": 15, "rMin": 30, "rMax": 48, "crumble": 0.35 },
+      "pal": { "dusk": "#2a0f18", "ground": "#3a1522", "light": "255,172,96", "umbra": "#12040a", "hatch": "#48152c", "obst": "#0c0306", "rim": "#ffb070", "accent": "#ff7a59" },
+      "rate": [1.2, 2.5], "cap": [38, 62],
+      "pool": [["funke", 0.8, 0], ["schemen", 0.8, 0], ["brenner", 0.4, 0], ["wechselbalg", 0.4, 15], ["nachtmahr", 0.15, 30], ["irrlicht", 0.35, 40], ["glutklumpen", 0.3, 50], ["schattenhand", 0.3, 60], ["laternchen", 0.2, 80]],
+      "bursts": [[50, "nachtmahr", 2, "side"], [95, "funke", 16, "ring"], [125, "schemen", 12, "ring"]],
+      "music": { "root": 47, "scale": [0, 1, 4, 5, 7, 8], "bpm": 104 }
+    }
+  ],
+  "encore": {
+    "name": "Zugabe", "bossEvery": 100, "rate": [1.0, 0.012], "cap": [36, 0.08, 90], "hpRamp": 0.0035,
+    "pool": [["funke", 1, 0], ["schemen", 1, 0], ["motte", 0.5, 20], ["rabe", 0.5, 40], ["brenner", 0.4, 60], ["irrlicht", 0.4, 80], ["wechselbalg", 0.4, 100], ["tintenfleck", 0.3, 120], ["glutklumpen", 0.3, 140], ["laternchen", 0.25, 160], ["schattenhand", 0.3, 180], ["nachtmahr", 0.15, 220]],
+    "bosses": ["kerzenmutter", "rabenkoenig", "uhrwerk", "spiegelfrau", "finsternis"]
+  },
+  "grades": [
+    { "name": "Premiere", "hp": 1, "speed": 1, "spawn": 1, "dmg": 1, "glut": 1 },
+    { "name": "Fiebergrad 1", "hp": 1.3, "speed": 1.05, "spawn": 1.15, "dmg": 1.15, "glut": 1.3 },
+    { "name": "Fiebergrad 2", "hp": 1.6, "speed": 1.1, "spawn": 1.3, "dmg": 1.3, "glut": 1.6 },
+    { "name": "Fiebergrad 3", "hp": 1.9, "speed": 1.14, "spawn": 1.45, "dmg": 1.45, "glut": 1.9 },
+    { "name": "Fiebergrad 4", "hp": 2.25, "speed": 1.18, "spawn": 1.6, "dmg": 1.6, "glut": 2.3 },
+    { "name": "Fiebergrad 5", "hp": 2.6, "speed": 1.22, "spawn": 1.75, "dmg": 1.8, "glut": 2.8 }
+  ]
+}
